@@ -1,7 +1,6 @@
 .pageHead{
     display: flex;
     justify-content: space-between;
-    border: solid black;
     width: 100%;
     height: 65px;
 }
@@ -10,7 +9,20 @@
     width: auto;
 }
 .pageHead div {
-    border: solid;
+    border:solid rgba(224, 224, 18, 0.785);
     width: 100%;
+    border-style: groove;
 }
+select{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#account-icon img{
+    height: 60px;
+}
+#block5sc1{
+    display: flex;
+}
+
 
